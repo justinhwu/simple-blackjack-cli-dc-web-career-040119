@@ -45,7 +45,11 @@ def hit?
   prompt_user
   loop do
   get_user_input
-  break if get_user_input == "s"
+  if get_user_input == "s"
+    break
+    elsif get_user_input =="exit"
+    break
+
 end
 end
 
