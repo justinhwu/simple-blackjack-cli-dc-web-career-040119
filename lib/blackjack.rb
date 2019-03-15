@@ -61,7 +61,7 @@ def runner
   # code runner here
   welcome
   currenthand = intial_round
-  if display_card_total <21
+  if currenthand <21
     hit?
     display_card_total
   else 
