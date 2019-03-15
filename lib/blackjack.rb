@@ -47,6 +47,7 @@ def hit?
   get_user_input
   break if get_user_input == "s"
 end
+end
 
 def invalid_command
   # code invalid_command here
