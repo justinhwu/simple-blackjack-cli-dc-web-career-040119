@@ -49,7 +49,7 @@ def hit?
     break
     elsif get_user_input =="exit"
     break
-
+  end
 end
 end
 
