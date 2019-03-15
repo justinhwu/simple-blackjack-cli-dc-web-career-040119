@@ -61,7 +61,7 @@ def runner
   # code runner here
   welcome
   currenthand = initial_round
-  until currenthand >21 dp
+  until currenthand >21 do
     currenthand +=hit?(currenthand)
     display_card_total(currenthand)
 end
