@@ -45,7 +45,7 @@ def hit?
   prompt_user
   loop do
   get_user_input
-  if get_user_input == 
+  break if get_user_input ==
 end
 
 def invalid_command
