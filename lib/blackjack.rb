@@ -38,6 +38,7 @@ def initial_round
   total = card1+card2
   binding.pry
   puts "#{display_card_total(total)}"
+  binding.pry
 end
 
 def hit?
