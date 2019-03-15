@@ -60,6 +60,6 @@ end
 def runner
   # code runner here
   welcome
-  
+  intial_round
 end
     
