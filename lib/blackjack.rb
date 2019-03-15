@@ -65,6 +65,6 @@ def runner
     currenthand +=hit?(currenthand)
     display_card_total(currenthand)
 end
-end_game
+end_game(currenthand)
 end
     
