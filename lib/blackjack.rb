@@ -42,6 +42,7 @@ end
 
 def hit?
   # code hit? here
+  promt_user
 end
 
 def invalid_command
