@@ -40,15 +40,7 @@ end
 
 def hit?
   # code hit? here
-  prompt_user
-  loop do
-  get_user_input
-  if get_user_input == "s"
-    break
-    elsif get_user_input =="exit"
-    break
-  end
-end
+  
 end
 
 def invalid_command
